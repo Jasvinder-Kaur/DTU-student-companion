@@ -1,0 +1,25 @@
+<%- include("partials/header") -%>
+    <h1>
+        <%= date %>
+    </h1>
+    <% for (i=1; i <=18; i++) { %>
+        <div class="change-style card text-info bg-dark mb-3 img-fluid" style="max-width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title text" style="text-align: center;">A<%= i %>
+                </h5>
+                <a href="/route/time-table/a<%= i %>" class="stretched-link"></a>
+            </div>
+        </div>
+        <% } %>
+            <% for (j=1; j <=18; j++) { %>
+                <div class=" change-style card text-info bg-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title text" style="text-align: center;">B<%= j %>
+                        </h5>
+                        <a href="/route/time-table/b<%= j %>" class="stretched-link"></a>
+                    </div>
+                </div>
+                <% } %>
+                    </body>
+
+                    </html>

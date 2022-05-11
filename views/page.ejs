@@ -1,0 +1,94 @@
+<%- include("partials/header") -%>
+    <h1 style="text-align: center;">
+        <%= batch %>
+    </h1>
+    <table class="table table-bordered table-dark" style="text-align: center; margin-top: 30px;">
+        <thead>
+            <tr>
+                <th scope="col" style="width: 10%;"></th>
+                <th scope="col" style="width: 10%;">8-9</th>
+                <th scope="col" style="width: 10%;">9-10</th>
+                <th scope="col" style="width: 10%;">10-11</th>
+                <th scope="col" style="width: 10%;">11-12</th>
+                <th scope="col" style="width: 10%;">12-1</th>
+                <th scope="col" style="width: 10%;">1-2</th>
+                <th scope="col" style="width: 10%;">2-3</th>
+                <th scope="col" style="width: 10%;">3-4</th>
+                <th scope="col" style="width: 10%;">4-5</th>
+                <th scope="col" style="width: 10%;">5-6</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <td><%= data.lecture00 %></td>
+                <td><%= data.lecture01 %></td>
+                <td><%= data.lecture02 %></td>
+                <td><%= data.lecture03 %></td>
+                <td><%= data.lecture04 %></td>
+                <td><%= data.lecture05 %></td>
+                <td><%= data.lecture06 %></td>
+                <td><%= data.lecture07 %></td>
+                <td><%= data.lecture08 %></td>
+                <td><%= data.lecture09 %></td>
+            </tr>
+            <tr>
+                <th>Tuesday</th>
+                <td><%= data.lecture10 %></td>
+                <td><%= data.lecture11 %></td>
+                <td><%= data.lecture12 %></td>
+                <td><%= data.lecture13 %></td>
+                <td><%= data.lecture14 %></td>
+                <td><%= data.lecture15 %></td>
+                <td><%= data.lecture16 %></td>
+                <td><%= data.lecture17 %></td>
+                <td><%= data.lecture18 %></td>
+                <td><%= data.lecture19 %></td>
+            </tr>
+            <tr>
+                <th>Wednesday</th>
+                <td><%= data.lecture20 %></td>
+                <td><%= data.lecture21 %></td>
+                <td><%= data.lecture22 %></td>
+                <td><%= data.lecture23 %></td>
+                <td><%= data.lecture24 %></td>
+                <td><%= data.lecture25 %></td>
+                <td><%= data.lecture26 %></td>
+                <td><%= data.lecture27 %></td>
+                <td><%= data.lecture28 %></td>
+                <td><%= data.lecture29 %></td>
+            </tr>
+            <tr>
+                <th>Thursday</th>
+                <td><%= data.lecture30 %></td>
+                <td><%= data.lecture31 %></td>
+                <td><%= data.lecture32 %></td>
+                <td><%= data.lecture33 %></td>
+                <td><%= data.lecture34 %></td>
+                <td><%= data.lecture35 %></td>
+                <td><%= data.lecture36 %></td>
+                <td><%= data.lecture37 %></td>
+                <td><%= data.lecture38 %></td>
+                <td><%= data.lecture39 %></td>
+            </tr>
+            <tr>
+                <th>Friday</th>
+                <td><%= data.lecture40 %></td>
+                <td><%= data.lecture41 %></td>
+                <td><%= data.lecture42 %></td>
+                <td><%= data.lecture43 %></td>
+                <td><%= data.lecture44 %></td>
+                <td><%= data.lecture45 %></td>
+                <td><%= data.lecture46 %></td>
+                <td><%= data.lecture47 %></td>
+                <td><%= data.lecture48 %></td>
+                <td><%= data.lecture49 %></td>
+            </tr>
+        </tbody>
+    </table>
+    <div class="text-center">
+        <button onclick="location.href = '/route/time-table/<%= batch2 %>/edit';" style="margin: 10px auto; padding: 10px 20px;" type="button" class="btn btn-dark">Edit</button>
+    </div>
+    </body>
+
+    </html>

@@ -1,0 +1,36 @@
+body {
+    background-color: #E2E8F0;
+}
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    transform: scale(0.5);
+}
+
+.change-style {
+    width: 200px;
+    margin: 50px;
+    display: inline-block;
+}
+
+.card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);   
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+
+.text {
+    font-size: 3rem;
+}
